@@ -1,0 +1,48 @@
+.row {
+  color:white;
+  margin-left: 20px;
+}
+
+.row_posters {
+  /* make it into rows */
+  display: flex;
+  /* hide the vertical scroll */
+  overflow-y: hidden;
+  /* scroll sideways */
+  overflow-x: scroll;
+  /* this is so it doesn't crop the top when it gets bigger */
+  padding: 20px;
+}
+
+/* take the scroll bar out of the app */
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  /* keep the aspect ratio on the website */
+  object-fit: contain;
+  /* only 100 percent of the screen and fits */
+  width: 100%;
+  /* made it small?  */
+  max-height: 100px;
+  /* space between poster */
+  margin-right: 10px;
+  /* transition effect to the poster if changed, it works with the hover
+      so it doesn't look to clunky */
+  transition: transform 450ms;
+}
+
+
+.row_poster:hover {
+  /* grows on hover */
+  transform: scale(1.08);
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09);
+}
