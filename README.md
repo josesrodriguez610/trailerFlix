@@ -30,4 +30,4 @@ deployment was handle through Firebase.
 ## Contact
 
 Jose Rodriguez > josesrodriguez610@gmail.com
-Portfolio: josesrodriguez.com
+Portfolio > https://www.josesrodriguez.com/
