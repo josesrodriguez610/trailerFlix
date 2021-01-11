@@ -1,5 +1,7 @@
 ## TrailerFlix
 
+![logo](public/logo.png)
+
 Video streaming style based application where people can watch movie trailers sorted by categories
 
 # Installation & Setup
