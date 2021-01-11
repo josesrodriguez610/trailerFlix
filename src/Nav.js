@@ -17,11 +17,7 @@ function Nav() {
 
   return (
     <div className={`nav ${show && 'nav_black'}`}>
-      <img
-        className='nav_logo'
-        src='/e3cbd452-f215-466b-acdf-a09787d477f2_200x200 (1).png'
-        alt='Netflix Logo'
-      />
+      <img className='nav_logo' src='/logo.png' alt='Netflix Logo' />
       <h2 className='nav_avatar'>Trailer Flix</h2>
     </div>
   );
