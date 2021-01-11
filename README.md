@@ -1,6 +1,6 @@
 ## TrailerFlix
 
-![Screenshot](public/e3cbd452-f215-466b-acdf-a09787d477f2_200x200 (1).png)
+![Screenshot](/e3cbd452-f215-466b-acdf-a09787d477f2_200x200 (1).png)
 
 Video streaming style based application where people can watch movie trailers sorted by categories
 
